@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Local-only data (downloaded/derived datasets)
+/data/
+
+# Reference material (PDFs and other large local files)
+/resources/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
