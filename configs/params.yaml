@@ -1,0 +1,14 @@
+station_code: F700000103
+days: 30
+max_pages: 10
+page_size: 20000
+resample_frequency: 10min
+interpolation_limit: 3
+max_cloud_cover: 30
+image_size: [128, 128]
+max_products: 5
+paths:
+  timeseries_clean: data/processed/timeseries_clean.csv
+  image_dir: data/processed/images
+  index: data/processed/index.csv
+  quality_report: data/processed/quality_report.json
